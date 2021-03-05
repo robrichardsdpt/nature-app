@@ -1,0 +1,22 @@
+{
+  "name": "nature-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robrichardsdpt/nature-app.git"
+  },
+  "author": "Rob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robrichardsdpt/nature-app/issues"
+  },
+  "homepage": "https://github.com/robrichardsdpt/nature-app#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
