@@ -8,8 +8,27 @@
 html {
   // defines 1 rem
   font-size: 62.5%; /* 1rem = 10px */
+
+  @include respond(big-desktop) { // min 1800
+    font-size: 75%; // 12
+  }
+
+  @include respond(tab-land) {  // max 1200
+    font-size: 56.25%; // 9px
+  }
+
+  @include respond(tab-port) { // max 900
+    font-size: 50%; // 8
+  }
+
+
 }
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
